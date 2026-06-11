@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Semua tautan, karya, dan cara menghubungi Chiko dalam satu tempat."
+    />
+    <meta name="theme-color" content="#0b0d0c" />
+    <meta property="og:title" content="Chiko — Links" />
+    <meta
+      property="og:description"
+      content="Semua tautan, karya, dan cara menghubungi saya dalam satu tempat."
+    />
+    <meta property="og:type" content="website" />
+    <title>Chiko — Links</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="glow glow-one" aria-hidden="true"></div>
+    <div class="glow glow-two" aria-hidden="true"></div>
+
+    <main class="page-shell">
+      <header class="profile">
+        <div class="avatar" aria-hidden="true">
+          <span>CK</span>
+          <i></i>
+        </div>
+
+        <div class="profile-copy">
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            AVAILABLE FOR COLLABORATION
+          </div>
+          <h1>Chiko<span class="accent">.</span></h1>
+          <p>
+            Saya membangun solusi digital, berbagi hal yang saya pelajari,
+            dan mengeksplorasi teknologi.
+          </p>
+        </div>
+
+        <button class="share-button" type="button" aria-label="Bagikan halaman">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 16V3m0 0 5 5m-5-5L7 8M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" />
+          </svg>
+        </button>
+      </header>
+
+      <section class="links" aria-label="Tautan utama">
+        <!-- Ganti href dan teks di bawah dengan tautan milik Anda. -->
+        <a class="link-card featured" href="https://github.com/" target="_blank" rel="noreferrer">
+          <span class="link-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15 3h6v6M14 10l7-7M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            </svg>
+          </span>
+          <span class="link-copy">
+            <strong>Portfolio & Projects</strong>
+            <small>Lihat hal-hal yang sedang saya bangun</small>
+          </span>
+          <span class="link-arrow">↗</span>
+        </a>
+
+        <a class="link-card" href="https://github.com/" target="_blank" rel="noreferrer">
+          <span class="link-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.4 4 5 5 0 0 0 19.3.5S18.2.1 15 1.8a13.4 13.4 0 0 0-7 0C4.8.1 3.7.5 3.7.5A5 5 0 0 0 3.6 4a5.4 5.4 0 0 0-1.4 3.7c0 5.4 3.5 6.5 6.8 7A4.8 4.8 0 0 0 8 18v4M8 19c-3 .9-3-1.5-4-2" />
+            </svg>
+          </span>
+          <span class="link-copy">
+            <strong>GitHub</strong>
+            <small>Kode, eksperimen, dan kontribusi</small>
+          </span>
+          <span class="link-arrow">↗</span>
+        </a>
+
+        <a class="link-card" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <span class="link-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+            </svg>
+          </span>
+          <span class="link-copy">
+            <strong>LinkedIn</strong>
+            <small>Mari terhubung secara profesional</small>
+          </span>
+          <span class="link-arrow">↗</span>
+        </a>
+
+        <a class="link-card" href="mailto:hello@example.com">
+          <span class="link-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z" />
+              <path d="m22 6-10 7L2 6" />
+            </svg>
+          </span>
+          <span class="link-copy">
+            <strong>Email Saya</strong>
+            <small>Untuk proyek, diskusi, atau sekadar menyapa</small>
+          </span>
+          <span class="link-arrow">↗</span>
+        </a>
+      </section>
+
+      <footer>
+        <span>© <span id="year"></span> Chiko</span>
+        <span class="footer-mark">BUILT WITH INTENTION</span>
+      </footer>
+    </main>
+
+    <div class="toast" role="status" aria-live="polite">Tautan disalin</div>
+  </body>
+</html>
