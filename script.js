@@ -13,7 +13,7 @@ function showToast(message) {
 shareButton.addEventListener("click", async () => {
   const shareData = {
     title: document.title,
-    text: "Lihat semua tautan saya di sini.",
+    text: "Lihat Bio Link saya di sini.",
     url: window.location.href,
   };
 

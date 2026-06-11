@@ -113,6 +113,15 @@ a {
   min-width: 0;
 }
 
+.brand-label {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+}
+
 .eyebrow {
   display: flex;
   gap: 8px;
